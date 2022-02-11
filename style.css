@@ -319,6 +319,7 @@ li {list-style-type: none;}
     gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 }
 
 .carousel-item {
@@ -579,4 +580,24 @@ li {list-style-type: none;}
     }
 }
 
-
+.owl-nav {
+    position: absolute;
+    top: 63px;
+    right: 0;
+}
+.owl-prev {
+    display: none;
+}
+#owl-carousel-1 .owl-next {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 7px rgb(0 0 0 / 9%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url('./images/Vector_owl.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#owl-carousel-1 .owl-next span {
+    display: none;
+}

@@ -15,6 +15,7 @@ $(document).ready(function(){
             itemsMobile : [479,1],
           }
     );
+    
     let acc = document.getElementsByClassName("accordion");
     let i;
     for (i = 0; i < acc.length; i++) {
