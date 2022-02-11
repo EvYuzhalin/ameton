@@ -6,6 +6,7 @@ $(document).ready(function(){
             autoWidth: 996,
             loop: true,
             dots: false,
+            nav: true,
             margin: 24,
             items : 4,
             itemsDesktop : [1199,4],
